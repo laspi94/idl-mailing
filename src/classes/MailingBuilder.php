@@ -79,7 +79,7 @@ class MailingBuilder
             "datos" => $this->datos
         ];
 
-        $this->sendEmail($payload);
+        return $this->sendEmail($payload);
     }
 
     public function login()
