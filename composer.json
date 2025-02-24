@@ -1,0 +1,35 @@
+{
+  "name": "laspi94/idl-mailing",
+  "version": "1.0.0",
+  "description": "package para realizar llamada al api de SGI Software y Dominios para obtener los contribuyentes registrados en la Secretaría de Estado de Tributación/Paraguay",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "src/classes/MailingBuilder.php"
+    ],
+    "psr-4": {
+      "Idl\\Mailing\\": "src/",
+      "Idl\\Mailing\\Class\\": "src/classes/",
+      "Idl\\Mailing\\Trait\\": "src/traits/",
+      "Idl\\Mailing\\Helpers\\": "src/helpers/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alan Laspina",
+      "email": "alanjoselaspina@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.2"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Idl\\Mailing\\MailingServiceProvider"
+      ]
+    }
+  }
+}
