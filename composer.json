@@ -1,6 +1,6 @@
 {
   "name": "laspi94/idl-mailing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "package para realizar llamada al api de SGI Software y Dominios para obtener los contribuyentes registrados en la Secretaría de Estado de Tributación/Paraguay",
   "type": "library",
   "license": "MIT",
