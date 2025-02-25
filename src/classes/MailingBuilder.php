@@ -115,7 +115,7 @@ class MailingBuilder
                 throw new \Exception("Error en el proceso de autenticasción en el envío de email");
             }
         } catch (\Exception $e) {
-            return $e;
+            throw $e;
         }
     }
 
@@ -151,7 +151,7 @@ class MailingBuilder
                 throw new \Exception("Error en el proceso de envío de email");
             }
         } catch (\Exception $e) {
-            return $e;
+            throw $e;
         }
     }
 }
